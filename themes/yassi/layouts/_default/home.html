@@ -1,0 +1,228 @@
+{{ define "main" }}
+
+<div class="content">
+  <div align="center">
+    <div class="cover-content">
+      <img width="{{ site.Params.CoverImageWidth }}" class="cover-image" src="{{ site.Params.CoverImage }}" style="border-radius: 50%; object-fit: cover;" />
+      <div class="cover-intro">
+        {{ .Content }}
+      </div>
+
+      <!-- Social Media Links -->
+      {{ if site.Params.social }}
+      <div class="social-links">
+  
+
+      
+
+        {{ with site.Params.social.linkedin }}
+        <a href="{{ . }}" {{ partial "external-link-attrs.html" (dict "external" true) | safeHTMLAttr }} aria-label="LinkedIn" class="social-link linkedin">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        {{ end }}
+
+   {{ with site.Params.social.youtube }}
+        <a href="{{ . }}" {{ partial "external-link-attrs.html" (dict "external" true) | safeHTMLAttr }} aria-label="YouTube" class="social-link youtube">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.498 6.186a2.99 2.99 0 0 0-2.105-2.116C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.393.57A2.99 2.99 0 0 0 .502 6.186C0 8.08 0 12 0 12s0 3.92.502 5.814a2.99 2.99 0 0 0 2.105 2.116C4.495 20.5 12 20.5 12 20.5s7.505 0 9.393-.57a2.99 2.99 0 0 0 2.105-2.116C24 15.92 24 12 24 12s0-3.92-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+          </svg>
+        </a>
+        {{ end }}
+
+  {{ with site.Params.social.googlescholar }}
+  <a href="{{ . }}" {{ partial "external-link-attrs.html" (dict "external" true) | safeHTMLAttr }} aria-label="Google Scholar"
+    class="social-link googlescholar">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 3L1.5 9.5 12 16l8-4.95V17h2V9.5L12 3z"/>
+      <path d="M5 12.2V16c0 2.4 3.13 4.5 7 4.5s7-2.1 7-4.5v-3.8l-7 4.3-7-4.3z"/>
+    </svg>
+  </a>
+{{ end }}
+
+
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Featured Projects Section -->
+  {{ $projects := where site.RegularPages "Section" "projects" }}
+  {{ $projects = where $projects "Params.featured" true }}
+  {{ $projects = $projects.ByParam "weight" }}
+  {{ if $projects }}
+  {{ $fullWidth := and site.Params.useProjectCarousel site.Params.projectCarouselFullWidth }}
+  <section class="featured-section{{ if $fullWidth }} featured-section--full-width{{ end }}">
+    {{ if site.Params.useProjectCarousel }}
+    <!-- Carousel Layout -->
+    <div class="featured-header{{ if $fullWidth }} featured-header--full-width{{ end }}">
+      <h2 class="featured-title">FEATURED PROJECTS</h2>
+      <div class="carousel-controls">
+        <button class="carousel-btn carousel-btn-prev" aria-label="Previous">‹</button>
+        <button class="carousel-btn carousel-btn-next" aria-label="Next">›</button>
+      </div>
+    </div>
+    <div class="carousel-container{{ if $fullWidth }} carousel-container--full-width{{ end }}">
+      <div class="featured-carousel{{ if $fullWidth }} featured-carousel--full-width{{ end }}">
+        {{ range $projects }}
+        <article class="featured-card">
+          {{ $projectUrl := .RelPermalink }}
+          {{ $isExternal := false }}
+          {{ if .Params.project_url }}
+          {{ $projectUrl = .Params.project_url }}
+          {{ $isExternal = true }}
+          {{ end }}
+          <a href="{{ $projectUrl }}"{{ partial "external-link-attrs.html" (dict "external" $isExternal) | safeHTMLAttr }}>
+            {{ if .Params.main_image }}
+            <div class="featured-image" style="background-image: url('{{ .Params.main_image }}');">
+              <div class="featured-overlay">
+                <h3 class="featured-card-title">
+                  {{ .Title }}
+                  {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }}
+                </h3>
+              </div>
+            </div>
+            {{ else }}
+            <div class="featured-image featured-no-image">
+              <div class="featured-overlay">
+                <h3 class="featured-card-title">
+                  {{ .Title }}
+                  {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }}
+                </h3>
+              </div>
+            </div>
+            {{ end }}
+            {{ if .Params.summary }}
+            <p class="featured-summary">{{ .Params.summary }}</p>
+            {{ end }}
+          </a>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+    {{ else }}
+    <!-- Grid Layout -->
+    <div class="featured-header">
+      <h2 class="featured-title">FEATURED PROJECTS</h2>
+    </div>
+    <div class="featured-grid">
+      {{ range $projects }}
+      <article class="featured-card">
+        {{ $projectUrl := .RelPermalink }}
+        {{ $isExternal := false }}
+        {{ if .Params.project_url }}
+        {{ $projectUrl = .Params.project_url }}
+        {{ $isExternal = true }}
+        {{ end }}
+        <a href="{{ $projectUrl }}"{{ partial "external-link-attrs.html" (dict "external" $isExternal) | safeHTMLAttr }}>
+          {{ if .Params.main_image }}
+          <div class="featured-image" style="background-image: url('{{ .Params.main_image }}');">
+            <div class="featured-overlay">
+              <h3 class="featured-card-title">
+                {{ .Title }}
+                {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }}
+              </h3>
+            </div>
+          </div>
+          {{ else }}
+          <div class="featured-image featured-no-image">
+            <div class="featured-overlay">
+              <h3 class="featured-card-title">
+                {{ .Title }}
+                {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }}
+              </h3>
+            </div>
+          </div>
+          {{ end }}
+          {{ if .Params.summary }}
+          <p class="featured-summary">{{ .Params.summary }}</p>
+          {{ end }}
+        </a>
+      </article>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <!-- Blog Posts List -->
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ $projectsInList := where (where site.RegularPages "Section" "projects") "Params.showInPostList" true }}
+  {{ $allPosts := union $posts $projectsInList }}
+  {{ $sortedPosts := $allPosts.ByDate.Reverse }}
+  {{ if $sortedPosts }}
+  <section class="posts-section">
+    <div class="posts-section-header">
+      <h2 class="featured-title">POSTS</h2>
+      {{ if site.Params.enableTimelineFilter }}
+      {{ if eq site.Params.timelineFilterStyle "dropdown" }}
+      <select class="timeline-filter-select" aria-label="Filter posts">
+        <option value="all">All</option>
+        <option value="post">Posts</option>
+        <option value="project">Projects</option>
+      </select>
+      {{ else }}
+      <div class="timeline-filter" role="group" aria-label="Filter posts">
+        <button class="timeline-filter-btn active" data-filter="all">All</button>
+        <button class="timeline-filter-btn" data-filter="post">Posts</button>
+        <button class="timeline-filter-btn" data-filter="project">Projects</button>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <ul class="home-list">
+      {{ range $sortedPosts }}
+      <li class="home-list-div" data-content-type="{{ if eq .Section "projects" }}project{{ else }}post{{ end }}">
+        <a href="{{ .RelPermalink }}" class="home-list-link">
+          <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
+          {{ if .Params.main_image }}
+          <div class="home-list-image" style="background-image: url('{{ .Params.main_image }}');"></div>
+          {{ end }}
+          <div class="home-list-content">
+            <div class="home-list-meta">
+              {{ if eq .Section "projects" }}
+              <span class="home-list-project-badge">PROJECT</span>
+              {{ end }}
+              <span class="home-list-duration">{{.ReadingTime }} min read</span>
+            </div>
+            <h3 class="home-list-title">{{.LinkTitle}}</h3>
+            {{ if .Summary }}
+            <p class="home-list-summary">{{ .Summary }}</p>
+            {{ end }}
+            {{ with .GetTerms "categories" }}
+            <div class="home-list-tags">
+              {{ range . }}
+              <span class="home-list-tag">{{ .LinkTitle }}</span>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </a>
+      </li>
+      {{ end }}
+
+      <!-- Timeline Starting Point (optional) -->
+      {{ if site.Params.timelineStart }}
+      <li class="home-list-div home-list-start">
+        <div class="home-list-link-static">
+          {{ if site.Params.timelineStartDate }}
+          <span class="home-list-date">{{ site.Params.timelineStartDate }}</span>
+          {{ end }}
+          <div class="home-list-content">
+            <p class="home-list-start-text">{{ site.Params.timelineStart | markdownify }}</p>
+            {{ if site.Params.timelineStartSubText }}
+            <p class="home-list-start-subtext">{{ site.Params.timelineStartSubText | markdownify }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

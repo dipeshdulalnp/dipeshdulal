@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blogging on Dipesh Dulal&#39;s Blog</title>
+		<link>https://www.dipeshdulal.com/categories/blogging/</link>
+		<description>Recent content in Blogging on Dipesh Dulal&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 07 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.dipeshdulal.com/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Converting Blogger Website to Hugo</title>
+				<link>https://www.dipeshdulal.com/posts/converting-blogger-website-to-hugo/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.dipeshdulal.com/posts/converting-blogger-website-to-hugo/</guid>
+				<description>Thank you Blogger (Google) for being by my blogging side from th initial days!</description>
+			</item>
+			<item>
+				<title>Thank you Blogger for deleting my website!</title>
+				<link>https://www.dipeshdulal.com/posts/thank-you-blogger-for-locking-my-website/</link>
+				<pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.dipeshdulal.com/posts/thank-you-blogger-for-locking-my-website/</guid>
+				<description>Google&amp;rsquo;s Blogger platform helped me to learn blogging, some SEO, and have resilience.</description>
+			</item>
+	</channel>
+</rss>

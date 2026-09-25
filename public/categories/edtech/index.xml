@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>EdTech on Dipesh Dulal&#39;s Blog</title>
+		<link>https://www.dipeshdulal.com/categories/edtech/</link>
+		<description>Recent content in EdTech on Dipesh Dulal&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.dipeshdulal.com/categories/edtech/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Drawing and Labeling Human Heart</title>
+				<link>https://www.dipeshdulal.com/posts/drawing-and-labeling-human-heart/</link>
+				<pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.dipeshdulal.com/posts/drawing-and-labeling-human-heart/</guid>
+				<description>I have found a digital way of helping them with drawing and labeling the human heart.</description>
+			</item>
+			<item>
+				<title>Using AI for Writing Student Feedback</title>
+				<link>https://www.dipeshdulal.com/posts/ai-for-writing-student-feedback/</link>
+				<pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.dipeshdulal.com/posts/ai-for-writing-student-feedback/</guid>
+				<description>One should not forget to consult relevant assessments to provide real input to AI, for generating feedback in text.</description>
+			</item>
+	</channel>
+</rss>

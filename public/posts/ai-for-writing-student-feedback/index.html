@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Using AI for Writing Student Feedback | Dipesh Dulal&#39;s Blog</title>
+
+      <link rel="stylesheet" href="/css/main.min.5a4722e88592ccd8a240a00fa67b7462b217182efdd316a476d859d145116175.css" integrity="sha256-Wkci6IWSzNiiQKAPpnt0YrIXGC790xakdthZ0UURYXU=" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet">
+
+
+
+<style>
+  :root {
+    --accent-color: #138847;
+  }
+  
+  [data-theme="dark"] {
+    --accent-color: #34cc8d;
+  }
+  
+</style>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        }
+      </script>
+
+<script>
+  window.yassiConfig = {
+    openExternalLinksInNewTab:  true 
+  };
+</script>
+        <script src="/js/fuse.min.472e3cdb14d7f182c453db4977fe802d2f112360669b48f556a8e24e61bdc813.js" integrity="sha256-Ry482xTX8YLEU9tJd/6ALS8RI2Bmm0j1VqjiTmG9yBM=" crossorigin="anonymous"></script>
+        <script src="/js/search.f07994356be0d405e324bc1f3d284593eb7089128b410da25ac9d89b98f000d2.js" integrity="sha256-8HmUNWvg1AXjJLwfPShFk&#43;twiRKLQQ2iWsnYm5jwANI=" crossorigin="anonymous"></script>
+      <script src="/js/main.08967642be2c688614a282483ced8f20154df75ef4270eee5d3aa8d5895fe709.js" integrity="sha256-CJZ2Qr4saIYUooJIPO2PIBVN9170Jw7uXTqo1Ylf5wk=" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="site-wrapper">
+  <header>
+    <div class="header-wrapper">
+    <nav class="navbar" role="navigation">
+        
+        <div class="navbar-brand">
+            <a href="/">Dipesh Dulal&#39;s Blog</a>
+        </div>
+
+        
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-nav">
+                
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/categories/">Categories</a>
+    </li>
+    <li>
+      <a href="/projects/">Projects</a>
+    </li>
+    <li>
+      <a href="/my-bookshelf/">My Bookshelf</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    </ul>
+  </nav>
+
+            </div>
+            <div class="navbar-actions">
+                
+                <button id="search-toggle" class="search-toggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+</div>
+
+  </header>
+  <main class="site-main">
+    
+
+
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">Using AI for Writing Student Feedback</h1>
+    <div class="post-meta">
+      <time datetime="2025-07-15T00:00:00&#43;00:00">July 15, 2025</time>
+      <span class="post-meta-separator">•</span>
+      <span>3 min read</span>
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Categories:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="/categories/ai/">AI</a></li>
+        <li class="terms-item"><a href="/categories/edtech/">EdTech</a></li>
+    </ul>
+  </div>
+
+      
+      
+    </div>
+    
+    <p class="post-summary">One should not forget to consult relevant assessments to provide real input to AI, for generating feedback in text.</p>
+    
+  </header>
+
+  
+
+  <div class="post-content">
+    <p>&ldquo;Why?&rdquo;</p>
+<p>&ldquo;Why not?&rdquo;</p>
+<p>I think that I can convince one to change her/his mind who would suggest against the value of generative AI for writing student feedback.</p>
+<p>After all, we need to save time and give little rest to our body and mind which already has nearly drained almost all energy in the working environment of the 21st century schools.</p>
+<p>This does not mean that we completely leave the task to the computing devices for we do not want our schools to be fully automated. Do we? I believe that human-to-human exchanges of subjective knowledge, ideas, and ideals shall remain forever in academia and other environments.</p>
+<p><img src="feedbacks.webp" alt="AI for Student Fedback"></p>
+<p>In the case of writing feedback to our students, we may want to provide key descriptions of our pupils, followed by short suggestions. For this, we can:</p>
+<ul>
+<li>dictate our verbal feedback using the software, followed by using the generative AI tools to rewrite the feedback in the required tone and correct language</li>
+<li>give draft commentary to generative AI tools so that these can create clear student feedback for us.</li>
+</ul>
+<p>Once one logs into the system of ChatGPT, Gemini, or other generative AI technologies, the prompt that s/he gives is important for generating the texts. In this article, I share few prompts that I used.</p>
+<h2 id="using-dictate-tool-and-chatgptgemini-for-writing-student-feedback">Using Dictate Tool and ChatGPT/Gemini for Writing Student Feedback.</h2>
+<p>These steps are quite organic because they involve in deeper formulation of verbal texts for the students of concern.</p>
+<ul>
+<li>Use dictate tool in Word processing software, or any other software to convert verbal comments into text.</li>
+<li>Use ChatGPT/Gemini to rewrite those texts for clear language with rework on structure, tone, language etc.</li>
+<li>When these technologies generate the feedback text, you may publish straightaway or edit a bit beforehand.</li>
+</ul>
+<h2 id="some-chatgptgemini-prompts-for-writing-student-feedback">Some ChatGPT/Gemini prompts for writing student feedback.</h2>
+<p><strong>Rewrite this student feedback that succinctly provides information on the student&rsquo;s strength (s), weakness (w) and action (a). I am going to publish the same so that parents get a clear message about the ward in subject.</strong></p>
+<blockquote>
+<p>Angel is a very hard-working student. Apparently, she has been struggling hard in academics, especially in mathematics. She also stays withdrawn when the situation demands expressing and communicating. However, I can suggest that she can make use of other skills and competencies in combination with developing communication skills for getting more confidence.</p>
+</blockquote>
+<h3 id="refinement-prompts">Refinement prompts.</h3>
+<p>While working with generative AI tools, one may want to get refined responses. Some examples of refinement prompts are given below.</p>
+<p><strong>Can you please write in 1 paragraph?</strong></p>
+<p><strong>Can you rewrite the feedback in bullet points?</strong></p>
+<p><strong>Rewrite in 3-4 sentences?</strong></p>
+<p>Benefiting from the ocean of generative AI may not do harm if we try to learn the language and presentation while doing it. The key thing not to forget while harnessing the potential of generative AI is keeping the true message, remaining honest with our work and remaining confident by cross checking the outputs.</p>
+<p>I hope that my post provided some value to your reading. I would reiterate that it is humans who thrive in the education industry- educators, students, parents, and the range of professions involved.</p>
+
+  </div>
+
+  
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+    <p align="center" class="copyright">Dipesh Dulal&#39;s Blog © 2026. All rights reserved.</p>
+
+  </footer>
+  
+
+<div id="search-modal" class="search-modal">
+  <div class="search-modal-overlay"></div>
+  <div class="search-modal-content">
+    <div class="search-modal-header">
+      <div class="search-input-wrapper">
+        <svg class="search-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search posts and projects..."
+          autocomplete="off"
+          aria-label="Search"
+        />
+        <button id="search-close" class="search-close" aria-label="Close search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="search-shortcuts">
+        <kbd>ESC</kbd> to close
+      </div>
+    </div>
+    <div id="search-results" class="search-results">
+      <div class="search-empty">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <p>Start typing to search...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

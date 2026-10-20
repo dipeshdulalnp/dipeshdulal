@@ -27,4 +27,4 @@ They always revived the website as my websites were not intended for spamming th
 
 **UPDATE:**
 
-I have moved 2 of my websites to other platforms whereas I still [log on to Blogger for reading new posts from my reading list](/posts/blogger-as-social-media-feed/) (mostly Blogger-based and WordPress-based blogs) and managing one blog.
+I have transfered by personal blog (this blog) [from Blogger to another setup that uses Hugo](/posts/converting-blogger-website-to-hugo/). I still [log on to Blogger for reading new posts from my reading list](/posts/blogger-as-social-media-feed/) (mostly Blogger-based and WordPress-based blogs) and managing one blog.

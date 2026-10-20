@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Reading on Dipesh Dulal&#39;s Blog</title>
-		<link>https://www.dipeshdulal.com/categories/reading/</link>
+		<link>http://localhost:1313/categories/reading/</link>
 		<description>Recent content in Reading on Dipesh Dulal&#39;s Blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://www.dipeshdulal.com/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Blogger as Social Media Feed</title>
+				<link>http://localhost:1313/posts/blogger-as-social-media-feed/</link>
+				<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/blogger-as-social-media-feed/</guid>
+				<description>Name it content addiction - but I need to get recent views and updates from the people who write blogs that I like to read.</description>
+			</item>
 			<item>
 				<title>Quenching the (Reading) Thirst with this Sajha Publication Outlet</title>
-				<link>https://www.dipeshdulal.com/posts/sajha-publication-outlet/</link>
+				<link>http://localhost:1313/posts/sajha-publication-outlet/</link>
 				<pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-				<guid>https://www.dipeshdulal.com/posts/sajha-publication-outlet/</guid>
+				<guid>http://localhost:1313/posts/sajha-publication-outlet/</guid>
 				<description>Sajha Publication Showoom lies in the premises of Campus of International Languages, Exhibition Road, Kathmandu.</description>
 			</item>
 	</channel>

@@ -2,204 +2,207 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.dipeshdulal.com/projects/pedagogy-notes/</loc>
+    <loc>http://localhost:1313/projects/pedagogy-notes/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/</loc>
+    <loc>http://localhost:1313/posts/blogger-as-social-media-feed/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blogging/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/reading/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/poem/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/</loc>
+    <loc>http://localhost:1313/posts/poem-on-nihilist-penguin/</loc>
     <lastmod>2026-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/poem/</loc>
-    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.dipeshdulal.com/posts/poem-on-nihilist-penguin/</loc>
-    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.dipeshdulal.com/categories/activity-based-learning/</loc>
+    <loc>http://localhost:1313/categories/activity-based-learning/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/handmade-nag-panchami-poster/</loc>
+    <loc>http://localhost:1313/posts/handmade-nag-panchami-poster/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/digital-minimalism/</loc>
+    <loc>http://localhost:1313/categories/digital-minimalism/</loc>
     <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/quitting-windows-installing-linux/</loc>
+    <loc>http://localhost:1313/posts/quitting-windows-installing-linux/</loc>
     <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/blogging/</loc>
+    <loc>http://localhost:1313/posts/converting-blogger-website-to-hugo/</loc>
     <lastmod>2026-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/converting-blogger-website-to-hugo/</loc>
-    <lastmod>2026-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.dipeshdulal.com/categories/gardening/</loc>
+    <loc>http://localhost:1313/categories/gardening/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/himalayan-ground-gooseberry-pani-amala/</loc>
+    <loc>http://localhost:1313/posts/himalayan-ground-gooseberry-pani-amala/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/contemplation-mid-life-crisis-nepali/</loc>
+    <loc>http://localhost:1313/posts/contemplation-mid-life-crisis-nepali/</loc>
     <lastmod>2026-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/personal-journal-in-nepali/</loc>
+    <loc>http://localhost:1313/categories/personal-journal-in-nepali/</loc>
     <lastmod>2026-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/berry-picking-theory-multiple-intelligence/</loc>
+    <loc>http://localhost:1313/posts/berry-picking-theory-multiple-intelligence/</loc>
     <lastmod>2026-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/organic-life/</loc>
+    <loc>http://localhost:1313/categories/organic-life/</loc>
     <lastmod>2026-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/outdoor-learning/</loc>
+    <loc>http://localhost:1313/categories/outdoor-learning/</loc>
     <lastmod>2026-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/surviving-30-days-facebook-deletion/</loc>
+    <loc>http://localhost:1313/posts/surviving-30-days-facebook-deletion/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/minimalism/</loc>
+    <loc>http://localhost:1313/categories/minimalism/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/thank-you-blogger-for-locking-my-website/</loc>
+    <loc>http://localhost:1313/posts/thank-you-blogger-for-locking-my-website/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/book-talk/</loc>
+    <loc>http://localhost:1313/categories/book-talk/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/dhupi-salla-ra-laligurans-ko-fedma-book-talk/</loc>
+    <loc>http://localhost:1313/posts/dhupi-salla-ra-laligurans-ko-fedma-book-talk/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/treasure-hunt-reduces-screen-time/</loc>
+    <loc>http://localhost:1313/posts/treasure-hunt-reduces-screen-time/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/nepali-poem/</loc>
+    <loc>http://localhost:1313/categories/nepali-poem/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/nepali-poem-vanko-dadelo/</loc>
+    <loc>http://localhost:1313/posts/nepali-poem-vanko-dadelo/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/laughter-sauna-and-silent-lake/</loc>
+    <loc>http://localhost:1313/posts/laughter-sauna-and-silent-lake/</loc>
     <lastmod>2026-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/short-story/</loc>
+    <loc>http://localhost:1313/categories/short-story/</loc>
     <lastmod>2026-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/website/</loc>
+    <loc>http://localhost:1313/categories/website/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/nepali-poem-udaan/</loc>
+    <loc>http://localhost:1313/posts/nepali-poem-udaan/</loc>
     <lastmod>2025-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/nature-education/</loc>
+    <loc>http://localhost:1313/categories/nature-education/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/school-herbal-garden-of-resilience/</loc>
+    <loc>http://localhost:1313/posts/school-herbal-garden-of-resilience/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/iskus-ko-munta-tender-chayote-shoots/</loc>
+    <loc>http://localhost:1313/posts/iskus-ko-munta-tender-chayote-shoots/</loc>
     <lastmod>2026-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/trying-ban-silam-seeds/</loc>
+    <loc>http://localhost:1313/posts/trying-ban-silam-seeds/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/ai/</loc>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/drawing-and-labeling-human-heart/</loc>
+    <loc>http://localhost:1313/posts/drawing-and-labeling-human-heart/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/edtech/</loc>
+    <loc>http://localhost:1313/categories/edtech/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/educational-resource/</loc>
+    <loc>http://localhost:1313/categories/educational-resource/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/ai-for-writing-student-feedback/</loc>
+    <loc>http://localhost:1313/posts/ai-for-writing-student-feedback/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/ghanaghasya-ko-ukalo/</loc>
+    <loc>http://localhost:1313/posts/ghanaghasya-ko-ukalo/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/human-geography/</loc>
+    <loc>http://localhost:1313/categories/human-geography/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/mend-your-shoes-and-become-minimalist/</loc>
+    <loc>http://localhost:1313/posts/mend-your-shoes-and-become-minimalist/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/chari-amilo-oxalis-latifolia-kunth/</loc>
+    <loc>http://localhost:1313/posts/chari-amilo-oxalis-latifolia-kunth/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/cooking-air-potato/</loc>
+    <loc>http://localhost:1313/posts/cooking-air-potato/</loc>
     <lastmod>2026-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/group-activity-collaboration-skills/</loc>
+    <loc>http://localhost:1313/posts/group-activity-collaboration-skills/</loc>
     <lastmod>2024-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/south-american-pepino-nepal/</loc>
+    <loc>http://localhost:1313/posts/south-american-pepino-nepal/</loc>
     <lastmod>2026-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/nature-activities-kids/</loc>
+    <loc>http://localhost:1313/posts/nature-activities-kids/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/nepali-kade-dhaniya-culantro/</loc>
+    <loc>http://localhost:1313/posts/nepali-kade-dhaniya-culantro/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/my-bookshelf/</loc>
+    <loc>http://localhost:1313/my-bookshelf/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/alternative-schooling/</loc>
+    <loc>http://localhost:1313/categories/alternative-schooling/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/home-tuition-nepal/</loc>
+    <loc>http://localhost:1313/posts/home-tuition-nepal/</loc>
     <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/jigsaw-puzzle-for-kids/</loc>
+    <loc>http://localhost:1313/posts/jigsaw-puzzle-for-kids/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/sajha-publication-outlet/</loc>
+    <loc>http://localhost:1313/posts/sajha-publication-outlet/</loc>
     <lastmod>2024-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/reading/</loc>
-    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.dipeshdulal.com/posts/kutil-kosa-common-vetch/</loc>
+    <loc>http://localhost:1313/posts/kutil-kosa-common-vetch/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/word-search-grid-parenting/</loc>
+    <loc>http://localhost:1313/posts/word-search-grid-parenting/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/bethe-ko-sag-lambs-quarters/</loc>
+    <loc>http://localhost:1313/posts/bethe-ko-sag-lambs-quarters/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/informal-learning/</loc>
+    <loc>http://localhost:1313/categories/informal-learning/</loc>
     <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/informal-learning-museum/</loc>
+    <loc>http://localhost:1313/posts/informal-learning-museum/</loc>
     <lastmod>2024-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/mysticism-in-nepal/</loc>
+    <loc>http://localhost:1313/posts/mysticism-in-nepal/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/categories/hiking/</loc>
+    <loc>http://localhost:1313/categories/hiking/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/jamacho-gumba-hiking/</loc>
+    <loc>http://localhost:1313/posts/jamacho-gumba-hiking/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://www.dipeshdulal.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

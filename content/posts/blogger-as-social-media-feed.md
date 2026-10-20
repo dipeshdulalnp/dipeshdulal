@@ -5,7 +5,7 @@ summary = "Name it content addiction - but I want to get recent views and update
 categories = ["Blogging", "Reading"]
 +++
 
-I have not completely left Google's Blogger paltform. I have revived Pedagogy Notes with it. Let me see how it goes.
+I have not completely left Google's Blogger paltform. I have been maintaining one blog with it. Let me see how it goes.
 
 However, there is yet another reason for me to use Google's Blogger platform - its 'Reading List' section.
 

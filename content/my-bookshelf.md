@@ -13,13 +13,15 @@ In this segment, I attempt to list the remarkable literary and academic books th
 - डोरबहादुर बिष्टका कथाहरू - डोरबहादुर बिष्ट (Himal Books)
 - चम्पा - लक्ष्मीप्रसाद देवकोटा
 - Fatalism and Development - Dor Bahadur Bista
+- घनचक्कर -  सञ्जीव उप्रेति 📖
 - घामकिरी - नयनराज पाण्डे
-- Manu (Rigvedic Social Novel) - Dr. Devi Prasad Subedi
+- लक्ष्मी निबन्धसङ्‌ग्रह - लक्ष्मीप्रसाद देवकोटा 📖
+- मनु - डा. देवीप्रसाद सुवेदी
 - रुदाने - टंक चौलागाईं
-- Shirishko Phool (Novel) - Vishnu Kumari Waiba (Parijat)
+- शिरीषको फूल - पारिजात
 - Siddhartha (Novel) - Hermann Hesse
 - The Old Man and The Sea - Ernest Hemingway
-- Volgadekhi Gangasamma - Nepali translation by Hemraj Adhikari (Original Book: Volga Se Ganga by Rahul Sankrityayan)
-- Khusi - Vijaya Kumar
+- वोल्गाडेखी गंगासम्म - Nepali translation by Hemraj Adhikari (Original Book: Volga Se Ganga by Rahul Sankrityayan)
+- खुसी - Vijay Kumar
 - लाहुरेको रेलिमाई - विजय हितान
 - Nexus - Yuval Noah Harari 📖

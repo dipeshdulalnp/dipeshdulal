@@ -1,7 +1,7 @@
 +++
 title = "Converting Blogger Website to Hugo"
 date = 2026-08-07
-summary = "Thank you Blogger (Google) for being by my blogging side from th initial days!"
+summary = "Thank you Blogger (Google) for being by my blogging side from the initial days!"
 categories = ["Blogging"]
 +++
 <p>Today, I am going to share what I did to transfer my olddomain.com Blogger-based website to newdomain.com static Hugo website that is hosted in Cloudflare.</p>

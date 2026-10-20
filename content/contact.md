@@ -6,8 +6,6 @@ layout: "posts"
 summary: "Should you write to me, I will reply to your message as soon as I can."
 ---
 
-I can be reached via e-mail - hello(at)dipeshdulal(dot)com.
-
 My Social Media Presence:
 - <a href="https://www.linkedin.com/in/dipeshdulal/" target="_blank">LinkedIn</a>
 - <a href="https://www.youtube.com/@dipeshdulalnp" target="_blank">YouTube</a>

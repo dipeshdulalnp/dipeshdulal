@@ -1,7 +1,7 @@
 +++
 title = "Blogger as Social Media Feed"
 date = 2026-10-20
-summary = "Name it content addiction - but I want to get recent views and updates from the people who write blogs that I like to read."
+summary = "Is it 'content addiction'? But I want to get recent views and updates from my favourite blogs."
 categories = ["Blogging", "Reading"]
 +++
 

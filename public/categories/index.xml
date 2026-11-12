@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Nepali Poem</title>
+				<link>http://localhost:1313/categories/nepali-poem/</link>
+				<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/nepali-poem/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Blogging</title>
 				<link>http://localhost:1313/categories/blogging/</link>
@@ -88,13 +95,6 @@
 				<link>http://localhost:1313/categories/book-talk/</link>
 				<pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/categories/book-talk/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Nepali Poem</title>
-				<link>http://localhost:1313/categories/nepali-poem/</link>
-				<pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/categories/nepali-poem/</guid>
 				<description></description>
 			</item>
 			<item>

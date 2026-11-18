@@ -12,9 +12,6 @@ layout: "posts"
 body {
     margin: 0;
     padding: 22px;
-    font-family: Arial, sans-serif;
-    background: #111827;
-    color: white;
 }
 
 h1 { text-align: center; margin-bottom: 5px; }

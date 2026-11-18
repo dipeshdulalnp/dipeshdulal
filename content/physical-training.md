@@ -1,10 +1,10 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Physical Movement Classification</title>
+---
+title: "Physical Training"
+date: 2026-11-18
+lastmod: 2026-11-18
+layout: "posts"
+---
 
 <style>
 * { box-sizing: border-box; }
@@ -133,9 +133,7 @@ button:hover { background: #fde68a; }
     .zones { grid-template-columns: 1fr; }
 }
 </style>
-</head>
 
-<body>
 
 <h1>Move, Act, Exercise or Train?</h1>
 
@@ -330,6 +328,4 @@ createCards();
 
 </script>
 
-</body>
-</html>
 

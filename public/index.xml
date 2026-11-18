@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/projects/pedagogy-notes/</guid>
 				<description>An attempt to write notes of pedagogical theories and praxis.</description>
+			</item>
+			<item>
+				<title>Move, Act, Exercise or Train?</title>
+				<link>http://localhost:1313/physical-training/</link>
+				<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/physical-training/</guid>
+				<description>Drag each word card into the category you think it belongs to.</description>
 			</item>
 			<item>
 				<title>Nepali Poem: कुहिरोको काग (A crow in the fog)</title>

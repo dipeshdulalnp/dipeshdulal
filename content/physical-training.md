@@ -1,8 +1,9 @@
 
 ---
-title: "Physical Training"
+title: "Move, Act, Exercise or Train?"
 date: 2026-11-18
 lastmod: 2026-11-18
+summary: "Drag each word card into the category you think it belongs to."
 layout: "posts"
 ---
 
@@ -132,11 +133,6 @@ button:hover { background: #fde68a; }
 </style>
 
 
-<h1>Move, Act, Exercise or Train?</h1>
-
-<p class="intro">
-Drag each word card into the category you think it belongs to.
-</p>
 
 <div id="cards"></div>
 

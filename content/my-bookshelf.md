@@ -15,7 +15,7 @@ In this segment, I attempt to list the remarkable literary and academic books th
 - Fatalism and Development - Dor Bahadur Bista
 - घनचक्कर -  सञ्जीव उप्रेति 📖
 - घामकिरी - नयनराज पाण्डे
-- लक्ष्मी निबन्धसङ्‌ग्रह - लक्ष्मीप्रसाद देवकोटा 📖
+- लक्ष्मी निबन्धसङ्‌ग्रह - लक्ष्मीप्रसाद देवकोटा
 - मनु - डा. देवीप्रसाद सुवेदी
 - रुदाने - टंक चौलागाईं
 - शिरीषको फूल - पारिजात
